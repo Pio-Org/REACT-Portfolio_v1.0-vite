@@ -51,7 +51,7 @@ export const Stack = () => {
         } else {
             controls.start("hidden");
         }
-    }, [controls. inView]);
+    }, [controls, inView]);
 
     return(
         <section
@@ -79,7 +79,7 @@ export const Stack = () => {
                             },
                         },
                     }}
-                    className='bg-white/10 flex flex-col items-center justify-center w-[200px h-[200px] rounded-xl p-4 shadow-lg hover:shadow-2xl transition-all'
+                    className='bg-white/10 flex flex-col items-center justify-center w-[200px] h-[200px] rounded-xl p-4 shadow-lg hover:shadow-2xl transition-all'
                     >
                         <div className={`mb-4 ${item.color}`}>{item.icon}</div>
                         <p className='text-white/20 text-xl'>{item.name}</p>

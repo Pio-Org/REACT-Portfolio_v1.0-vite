@@ -43,7 +43,7 @@ export const About = () => {
                         </p>
                         <div className='mt-4 relative border border-white/20 rounded-lg p-4 h-[220px] overflow-hidden'>
                             <img
-                            src={project1}
+                            src={"https://placehold.co/600x400"}
                             alt='Project 1'
                             className='absolute inset-0 w-full h-full object-cover'
                             />
@@ -126,7 +126,7 @@ export const About = () => {
                 <div className='border border-white/20 rounded-lg p-6 flex flex-col justify-between'>
                     <div className='relative border border-white/20 rounded-lg p-4 h-[200px] overflow-hidden'>
                         <img
-                            src={project2}
+                            src={"https://placehold.co/600x400"}
                             alt='Project 2'
                             className='absolute inset-0 w-full h-full object-cover'
                         />

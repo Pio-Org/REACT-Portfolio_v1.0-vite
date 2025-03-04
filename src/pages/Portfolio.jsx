@@ -15,7 +15,7 @@ const projects = [
         devstack: "stack1, stack1, stack1, stack1",
         link: "#",
         git: "#",
-        src: project1,
+        src: "https://placehold.co/600x400",
         type: "type of program"
     },
     {
