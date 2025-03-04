@@ -49,8 +49,8 @@ export const Footer = () => {
                     <h1 className='hidden md:block text-[10rem] md:text-[12rem] lg:text-[15rem] font-bold text-white opacity-10'>
                         Carl Madelo
                     </h1>
-
-                    <h1 className='md:hidden relative text-9xl md:text-[12rem] lg:text-[15rem] font-bold text-white opacity-10'>
+                        {/* need to finish animation in here */}
+                    <h1 className='md:hidden relative text-9xl md:text-[12rem] lg:text-[15rem] font-bold text-white opacity-10 '>
                         CARL
                         <br/>
                         MADELO
