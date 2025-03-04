@@ -11,14 +11,14 @@ export const Footer = () => {
     return(
         <footer className='py-8' id='contact'>
             <div className='max-w-[1200px] mx-auto px-4'>
-                <div className='flex items-center justify-between flex-col md:flex-row'>
+                <div className='flex items-center justify-between flex-col md:flex-row '>
                     <div>
                         <h2 className='md:text-7xl text-4xl font-bold mb-10 text-white/50'>
                         Get In <span className='text-gray-400'>Touch</span>
                         </h2>
                         <a
                         className='md:text-7xl text-4xl font-semibold text-white underline decoration-gray-400 decoration-2
-                        underline-offset-2 hover:decoration-gray-200 transition duration-300' 
+                        underline-offset-4 hover:decoration-gray-200 transition duration-300' 
                         href="#">
                             Sheesh@gmail.com
                         </a>
@@ -28,14 +28,13 @@ export const Footer = () => {
                         <div className='mb-8'>
                             <p className='text-lg mb-1'>Phone</p>
                             <a
-                        className='md:text-7xl text-4xl font-semibold text-white underline decoration-gray-400 decoration-2
-                        underline-offset-2 hover:decoration-gray-200 transition duration-300' 
-                        href="#">
-                            0(63) 423 2342
-                        </a>
-
-                            
+                            className=' text-2xl font-semibold underline decoration-gray-400 decoration-2
+                            underline-offset-4 hover:decoration-gray-400 transition duration-300' 
+                            href="+0(63) 423 2342">
+                                0(63) 423 2342
+                            </a>   
                         </div>
+
                         <div className='text-lg mb-8'>
                             <p className='font-bold'>Place</p>
                             <p>Street</p>
@@ -62,6 +61,37 @@ export const Footer = () => {
                     <p className='text-gray-200 caption text-n-4 lg:block'>
                     2025. All rights reserved.
                     </p>
+
+                    <ul className='flex gap-5 flex-wrap'>
+                        <a 
+                        href="#"
+                        aria-label='Github'
+                        className='text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-emerald-500 transition-all duration-500'
+                        >
+                            <AiFillGithub size={30}/>
+                        </a>
+                        <a 
+                        href="#"
+                        aria-label='X Twitter'
+                        className='text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-emerald-500 transition-all duration-500'
+                        >
+                            <AiOutlineTwitter size={30}/>
+                        </a>
+                        <a 
+                        href="#"
+                        aria-label='Facebook'
+                        className='text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-emerald-500 transition-all duration-500'
+                        >
+                            <AiFillFacebook size={30}/>
+                        </a>
+                        <a 
+                        href="#"
+                        aria-label='Instagram'
+                        className='text-gray-200 flex items-center justify-center w-10 h-10 rounded-full hover:text-emerald-500 transition-all duration-500'
+                        >
+                            <AiFillInstagram size={30}/>
+                        </a>
+                    </ul>
                 </div>
 
             </div>
