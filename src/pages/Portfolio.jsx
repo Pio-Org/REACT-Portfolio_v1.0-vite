@@ -1,9 +1,9 @@
 import React from 'react';
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from 'react';
-import project1 from "../assets/images/proj9.png";
-import project2 from "../assets/images/proj11.png";
-import project3 from "../assets/images/proj12.png";
+// import project1 from "../assets/images/proj9.png";
+// import project2 from "../assets/images/proj11.png";
+// import project3 from "../assets/images/proj12.png";
 import { FaGithub } from "react-icons/fa";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { FiChevronDown } from "react-icons/fi";
@@ -24,7 +24,7 @@ const projects = [
         devstack: "stack1, stack1, stack1, stack1",
         link: "#",
         git: "#",
-        src: project2,
+        src: "https://placehold.co/600x400",
         type: "type of program"
     },
     {
@@ -33,7 +33,7 @@ const projects = [
         devstack: "stack1, stack1, stack1, stack1",
         link: "#",
         git: "#",
-        src: project3,
+        src: "https://placehold.co/600x400",
         type: "type of program"
     },
 ];

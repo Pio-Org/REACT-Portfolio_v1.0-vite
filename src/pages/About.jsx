@@ -1,6 +1,6 @@
 import React from 'react';
-import project1 from "../assets/images/proj1.jpg";
-import project2 from "../assets/images/proj2.jpg";
+// import project1 from "../assets/images/proj1.jpg";
+// import project2 from "../assets/images/proj2.jpg";
 
 
 export const About = () => {
