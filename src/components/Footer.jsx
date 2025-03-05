@@ -45,21 +45,21 @@ export const Footer = () => {
 
                 </div>
 
-                <div className='relative z-10 text-center mt-8 py-12'>
+                <div className='relative z-10 text-center mt-8 py-12 animate-pulse duration-1000 '>
                     <h1 className='hidden md:block text-[10rem] md:text-[12rem] lg:text-[15rem] font-bold text-white opacity-10'>
-                        Carl Madelo
+                        Full Name
                     </h1>
                         {/* need to finish animation in here */}
                     <h1 className='md:hidden relative text-9xl md:text-[12rem] lg:text-[15rem] font-bold text-white opacity-10 '>
-                        CARL
+                        First Name
                         <br/>
-                        MADELO
+                        Last Name
                     </h1>
                 </div>
 
                 <div className='relative mt-12 container flex sm:justify-between justify-center items-center gap-10 max-sm:flex-col'>
                     <p className='text-gray-200 caption text-n-4 lg:block'>
-                    2025. All rights reserved.
+                    2025. All rights reserved. <br/> <span className='text-green-500 font-semibold  text-sm'>By Pio-Org</span>
                     </p>
 
                     <ul className='flex gap-5 flex-wrap'>

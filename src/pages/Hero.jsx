@@ -31,8 +31,10 @@ export const Hero = () => {
               transition={{ duration: 0.8 }}
               className='max-w-2xl'
               >
-                <h1 className='text-6xl md:text-7xl font-bold tracking-tighter mb-4'>
-                    Hi, I am <br/> Carl <span className='text-emerald-400'>Madelo</span>
+                {/* fix it or nah? typing animation */}
+                {/* animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white */}
+                <h1 className=' text-6xl md:text-7xl font-bold tracking-tighter mb-4'>
+                    Hi, I am <br/> First <span className='text-emerald-400'>Last </span>
                 </h1>
                 <p className='text-xl text-white/80 max-w-lg mx-auto leading-relaxed mb-6'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius amet culpa esse necessitatibus impedit ea facere excepturi soluta ex eveniet.
